@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Base Apparel</title>
+</head>
+<body>
+    <main class="grid">
+        <section class="logo">
+          <div class="logo-container">
+            <img src="./images/logo.svg" alt="logo">
+          </div>
+        </section>
+        <section class="hero">
+        </section>
+        <section class="comingsoon">
+          <h1 class="text-light">
+            We're
+          </h1>
+          <h1 class="text-bold lh-fix">
+            coming<br/> soon
+          </h1>
+          <h2 class="text-regular">
+            Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.
+          </h2>
+          <form class="promotion" id="errorBorder" onsubmit="event.preventDefault(); validateEmail();">
+            <input type="text" id="email" name="email" value="" placeholder="Email Address">
+            <div class="error" id="errorIcon">
+              <img src="./images/icon-error.svg" alt="">
+            </div>
+            <button class="btn submit">
+              <img src="./images/icon-arrow.svg" alt="arrow">
+            </button>
+          </form>
+        </section>
+      </main>
+      
+     
+   
+       
+    
+</body>
+</html>
